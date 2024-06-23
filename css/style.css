@@ -1,0 +1,372 @@
+/* Hard Reset */
+/* Reset */
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: darkblue;
+    color: #fff;
+    padding: 2rem 0;
+    padding-left: 2.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: large;
+}
+.profile-photo {
+    border-radius: 100%;
+    width: 15rem;
+    height: 15rem;
+    margin-right: 2rem;
+}
+.continue {
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-size: larger;
+    color: blue;
+}
+.contact {
+    border-radius: 1rem;
+    font-size: larger;
+    text-decoration: none;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    font-weight: 700;
+}
+.contact-button {
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 3rem;
+}
+.contenedor {
+  display: flex;
+  height: 39rem;
+  background-color: #554098
+  ;
+  opacity: 90%;
+}
+.social-links {
+    height: 1rem;
+    width: 1rem;
+    margin: 0 1rem;
+}
+.image {
+    width: 35rem;
+    margin: 2rem 10rem;
+    border-radius: 3rem;
+}
+.description {
+    background-color: lightblue;
+    margin: 6rem;
+    border-radius: 6rem;
+}
+    
+.about {
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+.paragraph {
+    text-align: center;
+    color:  black;
+    font-weight: 900;
+}
+.social-links {
+    margin-right:  14rem;
+}
+.container-experience {
+    text-align: center;
+    height: 60rem;
+    background-color: #191970;
+    color: #FFFFE0;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.experience-tiltle {
+    font-size: xx-large;
+    color: blue;
+    font-size: 4rem;
+}
+.xperience-item {
+    padding-bottom: 6rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-left: 1rem;
+}
+.item-habilidades {
+    margin-top:  18rem;
+}
+.project-D {
+    text-align: center;
+    height: 56rem;
+    font-size: 3rem;
+    margin: 2rem;
+    background-color: #E6E6FA;
+}
+.image-D {
+    margin: 2rem;
+    height: 46rem;
+    border-radius: 2rem;
+}
+.proyecto-U {
+    text-align: center;
+    height: 56rem;
+    font-size: 3rem;
+    margin: 2rem;
+    background-color: #E6E6FA;
+    color: #191970;
+    display: flex;
+}
+.image-U {
+    margin: 2rem;
+    width: 46rem;
+    border-radius: 2rem;
+    margin-bottom: 8rem;
+}
+.proyecto-dribbble {
+    text-align: center;
+    height: 56rem;
+    font-size: 3rem;
+    margin: 2rem;
+    background-color: #E6E6FA;
+    color: #191970;
+}
+.image-dr {
+    margin: 2rem;
+    width: 120rem;
+    border-radius: 2rem;
+    margin-bottom: 9rem;
+}
+.container-educ {
+    background-color: #370825;
+    color: #fff;
+    height: 46rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    padding: 4rem;
+}
+.edu-inf {
+    display: grid;
+}
+
+
+.contact-section {
+    background-color: #f4f4f4;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.contact-section h2 {
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-form label {
+    text-align: left;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-list {
+        margin-bottom: 1rem;
+    }
+}
+
+
+/* Media Queries */
+@media (max-width: 480px) {
+    body {
+        font-size: 1.4rem;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1.rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+
+    img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        border-radius: auto;
+
+    }
+    image {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        border-radius: auto
+    }
+    image-dr {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        border-radius: auto;
+    }
+    image-U {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        border-radius: auto;
+    }
+    image-D {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        border-radius: auto;
+    }
+    social-links {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+    }
+    contenedor {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+/* Media query para pantallas con un ancho máximo de 768px */
+@media (max-width: 760px) {
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1rem; 
+    }
+
+    p {
+        font-size: 1rem; 
+    }
+
+    img {
+        width: 100%; 
+        height: auto;
+        width: auto;
+    }
+
+    
+    .profile-photo {
+        width: 12rem; 
+        height: 12rem; 
+        margin-right: 1rem; 
+    }
+
+    .container {
+        padding: 1rem; 
+        flex-direction: column; 
+    }
+
+    .contenedor {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 2rem; 
+    }
+
+    .description {
+        margin: 2rem 0; 
+        padding: 2rem; 
+    }
+
+    .project-D,
+    .proyecto-U,
+    .proyecto-dribbble 
+    .container-educ{
+        height: auto; 
+        padding: 2rem; 
+        margin: 1rem 0; 
+    }
+
+    .image-D,
+    .image-U,
+    .image-dr {
+        width: 100%; 
+        height: auto; 
+        margin: 1rem 0; 
+    }
+    .social-links {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+    }
+    .contenedor {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+    }
+}
